@@ -1,0 +1,27 @@
+# The 'GNOME Dark" theme from GNOME terminal.
+
+colors:
+  primary:
+    foreground: '#d0cfcc'
+    background: '#222222'
+    bright_foreground: '#ffffff'
+
+  normal:
+    black:   '#184E77'
+    red:     '#1E6091'
+    green:   '#1A759F'
+    yellow:  '#168AAD'
+    blue:    '#34A0A4'
+    magenta: '#52B69A'
+    cyan:    '#76C893'
+    white:   '#D9ED92'
+
+#  bright:
+#    black:   '#212529'
+#    red:     '#FEC5BB'
+#    green:   '#FCD5CE'
+#    yellow:  '#FAE1DD'
+#    blue:    '#D8E2DC'
+#    magenta: '#ECE4DB'
+#    cyan:    '#E8E8E4'
+#    white:   '#F8EDEB'    
