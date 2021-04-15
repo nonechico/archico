@@ -24,3 +24,7 @@
 # Decrease backlight
 "xbacklight -dec 10"
    XF86MonBrightnessDown
+
+#Screnshot#
+"scrot -s  '%d-%m-%Y-%s_$wx$h.png' -e 'mv $f ~/Pictures'"
+   m:0x0 + c:107   # Print
