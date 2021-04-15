@@ -6,8 +6,8 @@ static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "dejavu sans mono:size=12", "fontawesome:size:12" };
-static const char dmenufont[]       = "dejavu sans mono:size=12";
+static const char *fonts[]          = { "DejaVu Sans Mono:size=12", "fontawesome:size:12" }; 
+static const char dmenufont[]       = "DejaVu Sans Mono:size=12";
 //background color
 static const char col_gray1[]       = "#222222";
 //inactive window border color
@@ -93,7 +93,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
     { MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
     { MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
-	TAGKEYS(                        XK_1,                      0)
+    TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
 	TAGKEYS(                        XK_4,                      3)
