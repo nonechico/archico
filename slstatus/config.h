@@ -64,10 +64,10 @@ static const char unknown_str[] = "n/a";
  * wifi_essid          WiFi ESSID                      interface name (wlan0)
  */
 static const struct arg args[] = {
-    { wifi_perc, "[ chico] ", "wlan0"}, 
+    { wifi_perc, "[chico] ", "wlan0"}, 
 //  { run_command, "[%d%%]","amixer sget Master",  },	
 //    { run_command, ": %4 | ", "amixer sget Master | awk -F\"[][]\" '/%/ { print [ }' | head -n1" },
-    { cpu_perc, "[CPU  %s%%] ", NULL	},
-    { ram_perc, "[RAM  %s%%] ", NULL	},
+    { cpu_perc, "[CPU %s%%] ", NULL	},
+    { ram_perc, "[RAM %s%%] ", NULL	},
 	{ datetime, "%s", 	 "%a %b %d %r" },
 };
