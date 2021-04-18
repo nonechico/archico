@@ -9,15 +9,15 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "DejaVu Sans Mono:size=12" }; 
 static const char dmenufont[]       = "DejaVu Sans Mono:size=12";
 //background color
-static const char col_gray1[]       = "#222222";
+static const char col_gray1[]       = "#392526";
 //inactive window border color
 static const char col_gray2[]       = "#444444";
 //font color
 static const char col_gray3[]       = "#bbbbbb";
 //current tag and current window font color
-static const char col_gray4[]       = "#222222";
+static const char col_gray4[]       = "#FFFFFF";
 //top bar second color (blue) and active window border color
-static const char col_pink[]        = "#FEC5BB";
+static const char col_pink[]        = "#457150";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -25,7 +25,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
