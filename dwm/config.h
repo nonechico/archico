@@ -2,14 +2,14 @@
 
 /* appearance */
 static const unsigned int borderpx  = 4;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int gappx     = 10;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "DejaVu Sans Mono:size=12" }; 
-static const char dmenufont[]       = "DejaVu Sans Mono:size=12";
+static const char *fonts[]          = { "Fira Code:size=12" }; 
+static const char dmenufont[]       = "Fira Code:size=12";
 //background color
-static const char col_gray1[]       = "#392526";
+static const char col_gray1[]       = "#222222";
 //inactive window border color
 static const char col_gray2[]       = "#444444";
 //font color
