@@ -5,7 +5,7 @@ colors:
     foreground: '#d0cfcc'
     background: '#222222'
     bright_foreground: '#ffffff'
-
+q
   normal:
     black:   '#212529'
     red:     '#FEC5BB'
